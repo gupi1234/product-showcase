@@ -4,13 +4,12 @@ import ProductDetails from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 
 import Footer from "./Components/Footer";
-import Header from "./components/Header";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-
+      <Navbar />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
