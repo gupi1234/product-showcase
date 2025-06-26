@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import ProductDetails from "./pages/ProductDetail"; // cleaned up path
+import ProductDetails from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 
 import Footer from "./Components/Footer";
@@ -11,7 +11,6 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      {/* Main content area that grows to fill space */}
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
