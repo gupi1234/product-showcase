@@ -30,7 +30,7 @@ const HeroSection = () => {
 
         <div className="lg:w-1/2">
           <img
-            src="https://images.unsplash.com/photo-1660840042045-e1a24d860810?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="src/assets/cart-hero.avif"
             alt="Shopping Hero"
             className="w-full h-auto rounded-lg shadow-md"
           />
