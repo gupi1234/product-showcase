@@ -1,4 +1,5 @@
 import React from "react";
+import heroCart from "../assets/cart-hero.avif";
 
 const HeroSection = () => {
   const handleScroll = () => {
@@ -30,7 +31,7 @@ const HeroSection = () => {
 
         <div className="lg:w-1/2">
           <img
-            src="src/assets/cart-hero.avif"
+            src={heroCart}
             alt="Shopping Hero"
             className="w-full h-auto rounded-lg shadow-md"
           />

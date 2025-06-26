@@ -8,6 +8,7 @@ import {
 } from "../features/cart/cartSlice";
 import { useNavigate } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
+import emptyCart from "../assets/cart-empty.png";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -26,7 +27,7 @@ const Cart = () => {
       <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
         <div className="text-center">
           <img
-            src="src/assets/cart-empty.png"
+            src={emptyCart}
             alt="Empty cart"
             className="w-24 h-24 opacity-70 mb-4 mx-auto"
           />
