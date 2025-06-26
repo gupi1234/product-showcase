@@ -26,7 +26,7 @@ const Cart = () => {
       <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
         <div className="text-center">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/2038/2038854.png"
+            src="src/assets/cart-empty.png"
             alt="Empty cart"
             className="w-24 h-24 opacity-70 mb-4 mx-auto"
           />
