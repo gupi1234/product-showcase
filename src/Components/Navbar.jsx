@@ -8,7 +8,7 @@ import {
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-const Header = () => {
+const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -86,4 +86,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
